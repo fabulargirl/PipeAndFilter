@@ -1,6 +1,5 @@
 from typing import List, Dict
 
-
 def str2float(data):
     for i in range(len(data)):
         data[i]['Temperature_F'] = float(data[i]['Temperature_F'])
